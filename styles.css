@@ -23,31 +23,61 @@ body {
 }
 
 /* Navigation bar */
+/*
+ * Navigation bar
+ *
+ * Stack the logo above the navigation links and center everything
+ * in the header. This creates a more prominent logo display and
+ * brings the brand identity to the forefront. The bar retains its
+ * background colour while spacing elements evenly for readability.
+ */
 .navbar {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    padding: 1rem 2rem;
+    justify-content: center;
+    padding: 1.5rem 2rem;
     background-color: #00539c;
     color: #fff;
 }
 
+/*
+ * Logo wrapper
+ *
+ * Center the logo within its container. The flexbox ensures the
+ * image remains centred horizontally. Additional margin is applied
+ * below to separate it from the navigation links below.
+ */
 .navbar .logo {
-    /* Contain the logo image; remove text styling */
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin-bottom: 0.5rem;
 }
 
 /* Logo image size */
+/*
+ * Increase the logo size so it stands out at the top of the page.
+ * Auto width maintains the aspect ratio while the height defines
+ * overall scale.
+ */
 .navbar .logo img {
-    height: 60px;
+    height: 100px;
     width: auto;
 }
 
+/*
+ * Navigation links
+ *
+ * When the logo is centred above, stack the navigation links
+ * horizontally beneath. Add a small margin to separate the links
+ * from the logo and increase spacing between each link.
+ */
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 1.5rem;
+    gap: 2rem;
+    margin-top: 0.5rem;
 }
 
 .nav-links a {
