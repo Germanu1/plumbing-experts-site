@@ -33,8 +33,15 @@ body {
 }
 
 .navbar .logo {
-    font-weight: bold;
-    font-size: 1.25rem;
+    /* Contain the logo image; remove text styling */
+    display: flex;
+    align-items: center;
+}
+
+/* Logo image size */
+.navbar .logo img {
+    height: 60px;
+    width: auto;
 }
 
 .nav-links {
@@ -293,6 +300,32 @@ footer {
     text-align: center;
     padding: 1rem;
     margin-top: 3rem;
+}
+
+/* About section layout */
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+.about-image {
+    flex: 1 1 300px;
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about-text {
+    flex: 2 1 400px;
+}
+
+.about-text p {
+    text-align: left;
 }
 
 /* Responsive tweaks */

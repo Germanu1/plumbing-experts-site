@@ -3,13 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Plumbing Experts – Reliable Plumbing Services</title>
+    <title>The Plumbing Experts &ndash; Reliable Plumbing Services</title>
+    <!-- Link to the custom stylesheet -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
+        <!-- Top navigation bar -->
         <nav class="navbar">
-            <div class="logo">The Plumbing Experts</div>
+            <div class="logo">
+                <!-- Replace text logo with the company logo image -->
+                <img src="logo.png" alt="The Plumbing Experts logo">
+            </div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -19,8 +24,10 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+        <!-- Hero section now uses a photographic background from the client site -->
         <section id="home" class="hero">
-            <!-- Hero background is handled via CSS; no external image required -->
+            <!-- Use the real hero photograph instead of an illustration -->
+            <img class="hero-image" src="hero.jpg" alt="Plumber working with camera equipment">
             <div class="hero-content">
                 <h1>Reliable Plumbing Services You Can Trust</h1>
                 <p>Expert plumbing solutions for homes and businesses in your area.</p>
@@ -28,15 +35,25 @@
             </div>
         </section>
     </header>
-    <section id="about" class="section">
+    
+    <!-- About Section -->
+    <section id="about" class="section about">
         <h2>About The Plumbing Experts</h2>
-        <p>
-            At The Plumbing Experts, our mission is to provide top‑notch plumbing services to our community.
-            We strive for excellence in every job, ensuring customer satisfaction and quality workmanship.
-            With over 20 years of industry experience, our licensed, insured, and bonded professionals deliver
-            reliable solutions for both residential and commercial clients.
-        </p>
+        <div class="about-content">
+            <!-- Photo from the current site illustrating the team at work -->
+            <img src="mission.jpg" alt="Plumber using a camera to inspect pipes" class="about-image">
+            <div class="about-text">
+                <p>
+                    At The Plumbing Experts, our mission is to provide top‑notch plumbing services to our community.
+                    We strive for excellence in every job, ensuring customer satisfaction and quality workmanship.
+                    With over 20 years of industry experience, our licensed, insured, and bonded professionals deliver
+                    reliable solutions for both residential and commercial clients.
+                </p>
+            </div>
+        </div>
     </section>
+    
+    <!-- Services Section -->
     <section id="services" class="section services">
         <h2>Our Services</h2>
         <div class="service-list">
@@ -45,7 +62,7 @@
                 <p>Keep your drains flowing freely with our professional cleaning services for clogs and blockages.</p>
             </div>
             <div class="service-item">
-                <h3>Water Heater Repair & Installation</h3>
+                <h3>Water Heater Repair &amp; Installation</h3>
                 <p>Repair or replace your water heater to ensure you always have hot water when you need it.</p>
             </div>
             <div class="service-item">
@@ -53,7 +70,7 @@
                 <p>We use advanced technology to quickly locate and fix leaks, preventing water damage and high utility bills.</p>
             </div>
             <div class="service-item">
-                <h3>Repiping & Re‑Drain Services</h3>
+                <h3>Repiping &amp; Re‑Drain Services</h3>
                 <p>Update aging plumbing systems with new pipes or drains to improve reliability and water quality.</p>
             </div>
             <div class="service-item">
@@ -62,16 +79,21 @@
             </div>
         </div>
     </section>
+    
+    <!-- Gallery Section -->
     <section id="gallery" class="section gallery">
         <h2>Our Work in Action</h2>
         <p>Explore some of our recent plumbing projects. We take pride in completing each job cleanly and professionally.</p>
         <div class="gallery-grid">
-            <div class="gallery-item"><img src="https://placehold.co/300x200?text=Project+1" alt="Plumbing project 1"></div>
-            <div class="gallery-item"><img src="https://placehold.co/300x200?text=Project+2" alt="Plumbing project 2"></div>
-            <div class="gallery-item"><img src="https://placehold.co/300x200?text=Project+3" alt="Plumbing project 3"></div>
-            <div class="gallery-item"><img src="https://placehold.co/300x200?text=Project+4" alt="Plumbing project 4"></div>
+            <!-- Use current photos from the client's website in the gallery -->
+            <div class="gallery-item"><img src="mission.jpg" alt="Plumbing technician inspecting pipes with camera"></div>
+            <div class="gallery-item"><img src="hero.jpg" alt="Plumber operating equipment to clear a drain"></div>
+            <div class="gallery-item"><img src="mission.jpg" alt="Professional plumber working on a doorway"></div>
+            <div class="gallery-item"><img src="hero.jpg" alt="Expert drain cleaning equipment in use"></div>
         </div>
     </section>
+    
+    <!-- Testimonials Section -->
     <section id="testimonials" class="section testimonials">
         <h2>Satisfied Customers Speak Out!</h2>
         <div class="testimonial-list">
@@ -85,13 +107,15 @@
             </blockquote>
         </div>
     </section>
+    
+    <!-- Contact Section -->
     <section id="contact" class="section contact">
         <h2>Contact Us</h2>
         <div class="contact-wrapper">
             <div class="contact-info">
                 <h3>The Plumbing Experts</h3>
                 <p><strong>Address:</strong> 13917 Artesia Blvd, Cerritos, CA 90703</p>
-                <p><strong>Hours:</strong> Mon–Fri 9:00 AM – 5:00 PM (Emergency service available 24/7)</p>
+                <p><strong>Hours:</strong> Mon&ndash;Fri 9:00&nbsp;AM – 5:00&nbsp;PM (Emergency service available 24/7)</p>
                 <p><strong>Phone:</strong> <a href="tel:+18889590006">(888) 959‑0006</a></p>
                 <p><strong>Email:</strong> <a href="mailto:info@plumbingexperts1.com">info@plumbingexperts1.com</a></p>
             </div>
@@ -108,6 +132,8 @@
             </form>
         </div>
     </section>
+    
+    <!-- Subscription Section -->
     <section id="subscribe" class="section subscribe">
         <h2>Subscribe</h2>
         <p>Sign up for promotions, deals, and maintenance tips.</p>
@@ -116,6 +142,7 @@
             <button type="submit">Sign Up</button>
         </form>
     </section>
+    
     <footer>
         <p>&copy; 2025 The Plumbing Experts. All rights reserved.</p>
     </footer>
