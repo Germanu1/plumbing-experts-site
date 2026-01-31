@@ -370,3 +370,43 @@ footer {
         padding: 0.5rem 1rem;
     }
 }
+/* Updated testimonial styling for avatars */
+.testimonial-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.testimonial {
+    display: flex;
+    gap: 1.5rem;
+    background-color: #fff;
+    border-left: 5px solid #08539c;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem 2rem;
+    align-items: center;
+}
+
+.testimonial-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonial blockquote {
+    margin: 0;
+    font-style: italic;
+    color: #555;
+}
+
+.testimonial cite {
+    display: block;
+    margin-top: 0.5rem;
+    font-weight: bold;
+    color: #08539c;
+    font-style: normal;
+}
